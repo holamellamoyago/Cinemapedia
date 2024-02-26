@@ -16,6 +16,6 @@ class MoviedbDatasource extends MoviesDataSource {
     final response = await dio.get('/movie/now_playing');
     final List<Movie> movies = [];
 
-    return [];
+    return movies;
   }
 }
